@@ -4,6 +4,9 @@ package com.stylefeng.guns.api.user;
  * Created by hufangzhou on 2019/11/25.
  */
 public class UserInfoModel {
+
+
+    private Integer uuid;
     private String username;
     private String nickname;
     private String email;
@@ -16,6 +19,15 @@ public class UserInfoModel {
     private String headAddress;
     private long beginTime;
     private long updateTime;
+
+    public Integer getUuid() {
+        return uuid;
+    }
+
+    public UserInfoModel setUuid(Integer uuid) {
+        this.uuid = uuid;
+        return this;
+    }
 
     public String getUsername() {
         return username;
