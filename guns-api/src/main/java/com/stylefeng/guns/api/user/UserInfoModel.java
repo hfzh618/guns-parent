@@ -1,9 +1,11 @@
 package com.stylefeng.guns.api.user;
 
+import java.io.Serializable;
+
 /**
  * Created by hufangzhou on 2019/11/25.
  */
-public class UserInfoModel {
+public class UserInfoModel implements Serializable {
 
 
     private Integer uuid;
