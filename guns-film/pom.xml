@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.stylefeng.guns</groupId>
-    <artifactId>guns-gateway</artifactId>
+    <artifactId>guns-film</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
-    <name>guns-gateway</name>
-    <description>Meeting院线的API网关 </description>
+    <name>guns-film</name>
+    <description>Meeting院线的影片服务 </description>
 
     <parent>
         <groupId>com.stylefeng</groupId>
@@ -50,10 +50,6 @@
             <groupId>com.alibaba.spring.boot</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
             <version>2.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.101tec/zkclient -->
